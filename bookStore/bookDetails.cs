@@ -24,7 +24,7 @@ namespace bookStore
         )] IEnumerable<dynamic> inputDocument,
             ILogger log)
         {
-            log.LogInformation("GetAllBooks Function Triggered");
+            log.LogInformation("GetAllBooks Function Triggered success");
 
             return new OkObjectResult(inputDocument);
         }
